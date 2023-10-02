@@ -1,7 +1,7 @@
 # Visual Studio Code Coding Tracker
 
 **A VSCode extension that track your coding activities and generate report about your coding.**   
-You can know how much time you spent on each projects/files/computers/languages/branchs and total
+You can know how much time you spent on each projects/files/computers/languages/branches and total
  by this extension.
 
 Supported languages:
@@ -22,7 +22,7 @@ All part of this extension(included server program, documents) are open-source a
 
 ### 0.8.0 
 
-1. Fix local server launch faild on users who have not install `Node.js` or installed `nvm`.
+1. Fix local server launch fail on users who have not install `Node.js` or installed `nvm`.
 
 If you want use this version now,
 **you can uninstall old version in VSCode, And clone this repository into `$HOME/.vscode/extensions`**
@@ -31,8 +31,7 @@ Create vsix file to install extension manually:
 1. `npm install`
 2. `npm install -g yo generator-code`
 3. `npm install -g @vscode/vsce`
-4. `npm install -g @vscode/vsce`
-5. `vsce package`
+4. `vsce package`
 
 Point to generated file from:`VSCode > Extensions > ('more' dots icon) > Install from VSIX...`
 
@@ -149,7 +148,7 @@ Or, just open browser and enter `http://${YOUR_SERVER_HOST_NAME}:${PORT}/report/
 
 ## Third party codes and resource
 
-- The icon of this extension is from [emojione](http://emojione.com/). This project help me a lot of (bkz I dont know how to use PS and dont have art sense).
+- The icon of this extension is from [emojione](http://emojione.com/). This project help me a lot of (bkz I don't know how to use PS and don't have art sense).
 - `lib/thirdPartyCodes/gitPaths.js` is modified from <https://github.com/DonJayamanne/gitHistoryVSCode/blob/master/src/helpers/gitPaths.ts>
 
 ## License
