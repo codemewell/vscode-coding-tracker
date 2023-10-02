@@ -20,12 +20,21 @@ All part of this extension(included server program, documents) are open-source a
 
 ## Current Version
 
-### 0.7.0 (Next version)
+### 0.8.0 
 
 1. Fix local server launch faild on users who have not install `Node.js` or installed `nvm`.
 
 If you want use this version now,
 **you can uninstall old version in VSCode, And clone this repository into `$HOME/.vscode/extensions`**
+
+Create vsix file to install extension manually: 
+1. `npm install`
+2. `npm install -g yo generator-code`
+3. `npm install -g @vscode/vsce`
+4. `npm install -g @vscode/vsce`
+5. `vsce package`
+
+Point to generated file from:`VSCode > Extensions > ('more' dots icon) > Install from VSIX...`
 
 ### 0.6.0 (2018/03/25)
 
